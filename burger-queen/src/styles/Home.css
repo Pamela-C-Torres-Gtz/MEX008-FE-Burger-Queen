@@ -1,0 +1,105 @@
+  .Home_header {
+    margin: auto;
+    padding: 50px;
+    bottom: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .Home_col1,
+  .Home_col{
+    text-align: center;
+  }
+  .Home__col {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    bottom: 30px;
+    border-top-width: 2rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .menuLogo {
+      background-color: rgba(255, 247, 62, 0.93);
+      
+      display: inline-block;
+      border-width: 100%;
+      border-radius: 6px;
+      -webkit-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+      -moz-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+      box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+  }
+  .Home_logo-Menu{
+    height: 75%;
+    
+    margin: auto;
+  }
+
+  .ordenLogo {
+    background-color: #E52D27;
+    display: inline-block;
+    border-width: 100%;
+    border-radius: 6px;
+    -webkit-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+    -moz-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+    box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+}
+.Home_logo-Pendientes {
+  width: 100%;
+  height: 75%;
+ 
+  margin: 0.01% 0;
+  margin: auto;
+}
+ 
+.cuentasLogo {
+    background-color: #DB9225;
+    display: inline-block;
+    border-width: 100%;
+    border-radius: 6px;
+    -webkit-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+    -moz-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+    box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+}
+.Home_logo-Cuentas {
+  width: 100%;
+  height: 75%;
+ 
+  margin: 0.01% 0;
+  margin: auto;
+}
+ 
+.encuestaLogo {
+    background-color: #D3563A;;
+    display: inline-block;
+   
+    border-width: 100%;
+    border-radius: 6px;
+    -webkit-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+    -moz-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+    box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+}
+.Home_logo-Encuesta {
+  width: 100%;
+  height: 75%;
+ 
+  margin: 0.01% 0;
+  margin: auto;
+}
+
+ .text-center {
+    padding: 20px;
+    bottom: 20px;
+    justify-content: center;
+   
+  }
+  @media screen and (min-width: 768px) {
+    .Home__col {
+      align-items: flex-start;
+    }
+  }
+
+  

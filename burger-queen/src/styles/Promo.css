@@ -1,0 +1,42 @@
+.Promo {
+    background: #FBDA86;
+    box-shadow: 0 3px 7px 0 rgba(5, 5, 5, 0.1);
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    height: 700px;
+    margin: 90px auto;
+    padding: 30px;
+    bottom: 70px;
+    justify-content: right;
+    text-align: center;
+    width: 35%;
+}
+
+.Promo_header {
+    margin: auto;
+    padding: 50px;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Promo_col {
+   -moz-box-shadow: 10px 10px 5px -4px rgba(199,185,199,1);
+    box-shadow: 10px 10px 5px -4px grey;
+    border: 1px solid grey; 
+    border-radius:6px;
+   /* width: 90%;*/
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    bottom: 30px;
+    border-top-width: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Promo_logo-piza {
+    width: 150px; 
+    height: 150px;
+}

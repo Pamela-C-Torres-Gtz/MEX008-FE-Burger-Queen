@@ -1,0 +1,17 @@
+
+.btn-areas {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: max-content;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+.Areas {
+    width: 150%;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    height: 150%;
+    text-align: center;
+}

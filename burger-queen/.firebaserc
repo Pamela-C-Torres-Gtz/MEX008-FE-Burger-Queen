@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "burgerqueen-a99fb",
-    "pandemonium": "burgerqueen-a99fb"
+    "default": "pan-d-monium",
+    "pan-d-monium": "pan-d-monium"
+
   }
 }

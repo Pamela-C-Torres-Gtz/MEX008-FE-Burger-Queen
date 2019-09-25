@@ -1,0 +1,39 @@
+
+/* diseño de la barra de navegación*/
+
+.Navbar {
+  width: 100%;
+  margin: 0.01% 0;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  background: #F8F8F8;
+  /*background-color:  rgb(228, 163, 23);*/
+  border: 1px shadow grey;
+  -webkit-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+  -moz-box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+  box-shadow: 6px 6px 9px 1px rgba(207, 199, 207, 1);
+}
+
+.Navbar__brand {
+  color: #0e0d0d;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__brand:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.Navbar__brand-logo {
+  margin-right: 1.5%;
+  width: 9%;
+  height: 9%;
+}
+
+.Navbar__brand-logoDmonuim {
+  margin: 0 33%;
+  width: 17%;
+  height: 17%;
+}
+
