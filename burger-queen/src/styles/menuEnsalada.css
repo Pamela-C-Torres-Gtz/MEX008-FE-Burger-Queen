@@ -1,10 +1,56 @@
-#ensalada{
+.ensalada, .jochos, .pizza, .hamburguesa, .bebidas {
     width: 150%;
-    max-width: 500px;
+    max-width: 450px;
     padding: 10px;
     margin: auto;
-    height: 150%;
     text-align: left;
-    border: solid;
-    
+    border-radius: 10px;
+    background-color: #53BE78;
 }
+
+.input2{
+    width: 19%;
+    height:2%;
+    font-size: x-small;
+}
+ .ensalada1, .ensalada2, .hamburguesa1, 
+ .hamburguesa2, .hamburguesa3, .hamburguesa4, 
+ .hamburguesa5, .hamburguesa6, .pizza1, .pizza2, .pizza3, 
+ .pizza4, .pizza5, .pizza6, .jocho1, .jocho2, .jocho3, .jocho4, 
+ .jocho5, .malteada, .soda {
+    /* border: solid; */
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-color: #929190;
+    width: auto;
+    margin: 0 10px;
+    padding: 20px ;
+    display: flex; 
+    text-align: center;
+    justify-content:space-between;
+ }
+
+ .pizza {
+     background-color: #F4C240;
+     /* border: solid;
+     border-color: #E8EC42; */
+ }
+ .hamburguesa {
+     background-color: #E8EC42;
+ }
+ .jochos {
+     background-color: #9BB7A6;
+ }
+
+ .bebidas {
+     background-color: #7B79D9;
+ }
+
+ .pizza, .hamburguesa, .jochos {
+     font-size: medium;
+ }
+ 
+
+ 
+
+ 

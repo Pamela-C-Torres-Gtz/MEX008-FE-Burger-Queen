@@ -2,10 +2,15 @@
 /* diseño de la barra de navegación*/
 
 .Navbar {
-  width: 100%;
-  margin: 0.01% 0;
+  max-width: 100%;
   padding: 0.5rem 0;
-  border-radius: 5px;
+  /*width: 100%;*/
+  margin: 0.01% 0;
+  /*display: flex;
+  height: auto;
+  justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;*/
   background: #F8F8F8;
   /*background-color:  rgb(228, 163, 23);*/
   border: 1px shadow grey;

@@ -18,7 +18,7 @@ class Home extends React.Component {
           <div className="row">
             <div className="Home_col1 col-6 col-md-6">
               <div className="menuLogo">
-                <Link className="text" to="/Menu">
+                <Link className="text" to="/Registro">
                   <img className="Home_logo-Menu" src={menuLogo} alt="Logo del menu"/>
                </Link>
               </div>

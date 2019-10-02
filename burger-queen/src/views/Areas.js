@@ -4,6 +4,7 @@ import Buttons from '../components/Buttons';
 import { Link } from 'react-router-dom';
 
 
+
 //import '../components/styles/Areas.css';
 
 class Areas extends React.Component {

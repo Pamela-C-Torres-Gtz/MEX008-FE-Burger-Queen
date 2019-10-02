@@ -1,0 +1,67 @@
+
+.Sidebar_img {
+    width: 2rem;
+    height: 2rem;
+}
+
+#burger_tab, #vertical-tab-one {
+    background-color: #E8EC42;
+    }
+    
+    #pizza_tab, #vertical-tab-two {
+        background-color: #F4C240;
+    }
+    
+    #salad_tab, #vertical-tab-three {
+        background-color: #53BE78;
+        height: 15vh;
+    }
+    
+    #Hot-dogs_tab, #vertical-tab-four {
+        background-color: #9BB7A6
+    }
+    
+    #drinks_tab, #vertical-tab-five {
+        background-color: #7B79D9;
+        height: 15vh;
+     }
+
+     .desktop_tabs {
+        display: none;
+
+    }
+
+@media only screen and (min-width:768px) {
+#burger_tab-desktop, #vertical-tab-one-desktop {
+background-color: #E8EC42;
+}
+
+#pizza_tab-desktop, #vertical-tab-two-desktop {
+    background-color: #F4C240;
+}
+
+#salad_tab-desktop, #vertical-tab-three-desktop {
+    background-color: #53BE78;
+    height: 15vh;
+}
+
+#Hot-dogs_tab-desktop, #vertical-tab-four-desktop {
+    background-color: #9BB7A6
+}
+
+#drinks_tab-desktop, #vertical-tab-five-desktop {
+    background-color: #7B79D9;
+    height: 15vh;
+ }
+
+.mobile_tabs {
+    display: none;
+ }
+
+.desktop_tabs {
+    display: inline-flex;
+}
+}
+
+
+

@@ -3,11 +3,13 @@ import Footer from "../components/Footer";
 
 import "../styles/Promo.css";
 import pizza from "../img/pizza.png";
+import Sidebar from "../components/Sidebar";
 
 class Promo extends React.Component {
   render() {
     return (
       <div>
+        
         <div className="Promo">
           <div className="Promo_header">
             <h1>Promo del día</h1>
