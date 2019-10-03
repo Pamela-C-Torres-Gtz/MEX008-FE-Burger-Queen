@@ -12,7 +12,7 @@ class Form extends React.Component {
         console.log('Holi');
         e.preventDefault();
         localStorage.setItem('clientes', JSON.stringify(this.state));
-        this.props.history.push('/Menu');
+        this.props.history.push('/Sidebar');
         //console.log(JSON.parse(localStorage.getItem('clientes')));
         //this.props.agregarClientes(this.state.name);
     }

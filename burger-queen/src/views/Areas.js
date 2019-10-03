@@ -13,7 +13,7 @@ class Areas extends React.Component {
         return <div className="areas-container">
           
             <div className = "btn-areas">
-                <Link to="/Tips" >
+                <Link to="/Home" >
                     <Buttons  className="btn btn-outline-secondary" text = "Servicio" />
                 </Link>
             </div>

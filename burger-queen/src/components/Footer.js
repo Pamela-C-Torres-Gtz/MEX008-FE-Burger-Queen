@@ -17,7 +17,9 @@ class Footer extends React.Component {
             </div>
          
             <Button className="btn" color="warning" block>
-              <Link to="/EnvioOrden"> Confirmar</Link>
+
+              <Link to="/TablaComanda"> Confirmar</Link>
+
             </Button>
           </div>
         );
